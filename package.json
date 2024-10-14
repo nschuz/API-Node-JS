@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ./src/app.ts",
-    "db:create" : "npx sequelize db:create && npx sequelize db:migrate"
+    "db:create" : "npx sequelize db:create && npx sequelize db:migrate",
+    "start": "node ./src/app.js"
   },
   "keywords": [],
   "author": "",
